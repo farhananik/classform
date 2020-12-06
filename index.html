@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form Classwork</title>
+</head>
+<body>
+	<div style="background: #6699FF;">
+		<h3 style="text-align: center; border-bottom: 1px solid black;">Online Purchase Form</h3>
+		<form style="width: 100%;">
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="name">Name:&nbsp;&nbsp;</label>
+		  	<input style="float: left; width: 78.5%; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="name" value="John Jones" required>
+		  	<br><br>
+		  	
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="street_no">Street/No:&nbsp;&nbsp;</label>
+		  	<input style="float: left; width: 40%; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="street no" value="Mainstreet" required>
+		  	<input style="float: right; width: 37%; margin-right: 13px; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="street no" value="2522" required>
+		  	<br><br>
+		  	
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="zip_code">Zip Code/City:&nbsp;&nbsp;</label>
+		  	<input style="float: left; width: 40%; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="zip code" value="12345" required>
+		  	<input style="float: right; width: 37%; margin-right: 13px; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="Maintown" value="Maintown" required>
+		  	<br><br>
+		  	
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="country">Country:&nbsp;&nbsp;</label>
+		  	<select style="float: left; width: 79%; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" id="country" name="cars" required>
+			    <option value="Germany">Germany</option>
+			    <option value="Sweden">Sweden</option>
+			    <option value="Finland">Finland</option>
+				<option value="Austria">Austria</option>
+			</select>
+			<br><br>
+			
+			<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="purchase">Purchase Order:&nbsp;&nbsp;</label>
+		  	<input style="float: left; width: 78.5%; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="purchase" value="123456789" required>
+		  	<br><br>
+		  	
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="validity">Valid From:&nbsp;&nbsp;</label>
+		  	<input style="float: left; width: 40%; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="validity" value="09/09/2020" required>
+		  	<input style="float: right; width: 36.7%; margin-right: 15px; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="validity" value="12:00" required>
+		  	<br><br>
+		  	
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="value">Net Value:&nbsp;&nbsp;</label>
+		  	<input style="float: left; width: 78.4%; height: 35px; margin-bottom: 15px; border-radius: 3px; border: 1px solid black;" type="text" name="value" value="1,000 EUR" required>
+		  	<br><br>
+
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="gender">Gender:&nbsp;&nbsp;</label>
+		  	<div style="float: left; width: 78.4%; text-align: left; height: 35px; line-height: 2.5; margin-bottom: 15px;"> 
+		  		<input type="radio" name="gender" value="male">Male
+		  		<input type="radio" name="gender" value="female">Female
+		  	</div>
+		  	<br><br>
+
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="payment">Payment:&nbsp;&nbsp;</label>
+		  	<div style="float: left; width: 80%; text-align: left; height: 35px; line-height: 2.5; margin-bottom: 15px;"> 
+		  		<input type="checkbox" name="payment" value="">Debit&nbsp;
+		  		<input type="checkbox" name="payment" value="">Credit&nbsp;
+		  		<input type="checkbox" name="payment" value="">Nexus&nbsp;
+		  		<input type="checkbox" name="payment" value="">PayPal&nbsp;
+		  		<input type="checkbox" name="payment" value="">Payoneer&nbsp;
+		  	</div>
+		  	<br><br>
+
+		  	<label style="float: left; width: 20%; text-align: right; height: 35px; line-height: 2.5;" for="comment">Comment:&nbsp;&nbsp;</label>
+		  	<textarea style="width: 78.4%; margin-bottom: 15px;" rows="10" cols="30">Please put your comment about our service</textarea>
+		  	<br><br>
+
+		  	<div style="width: 100%; margin-bottom: 15px; text-align: center;">
+		  		<input style="padding: 5px 10px 5px 10px; background-color: #FF0903" type="submit">
+		  	</div>
+		</form>
+	</div>
+</body>
+</html>
